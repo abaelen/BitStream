@@ -34,18 +34,20 @@ Code length is less < 200 lines and uses no external libraries.
 Back end array, declared as ordinary byte array (8-bits).
 But internal datastructure managed as a 'collection' of bit-subarrays:
 
-						  				                 	BitStringLength=31
-					    	<------------------------------------------------------->
 
-					  1-offset Mbr3: 24-----offset Mbr2:12-------offset Mbr1:-0
-						     		7bit			                	12bit				             12bit
+											BitStringLength=31
+						<------------------------------------------------------->
+
+						31-offset Mbr3: 24-----offset Mbr2:12------offset Mbr1:-0
+								7bit				12bit				12bit
 						<----------------> <----------------> <----------------->
 Row 1022
-	1021						  Mbr3				          Mbr2			             Mbr1
-	.                                         																			^
-	.								                                         											|
-	.									                                         										|
-	0									                                   								<-----{0,0}
+	1021						Mbr3				Mbr2			Mbr1
+	.																			^
+	.																			|
+	.																			|
+	0																	<-----{0,0}
+
 
 Actual storing is according to 8-bite (ie. byte) scheme.
 
