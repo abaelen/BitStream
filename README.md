@@ -43,10 +43,10 @@ But internal datastructure managed as a 'collection' of bit-subarrays:
 							7bit		12bit			12bit
 						<----------------> <----------------> <----------------->
 	Row 1022
-<	1021						Mbr3		Mbr2			Mbr1
-<	.																			^
-<	.															|
-<	.																			|
+	Row 1021					Mbr3		Mbr2			Mbr1
+	Row .																			^
+	Row .															|
+	Row .																			|
 <	0																	<-----{0,0}
 <
  
