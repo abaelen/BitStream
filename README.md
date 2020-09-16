@@ -36,14 +36,14 @@ But internal datastructure managed as a 'collection' of bit-subarrays:
 
 
 
-											BitStringLength=31
+									BitStringLength=31
 						<------------------------------------------------------->
 
 						31-offset Mbr3: 24-----offset Mbr2:12------offset Mbr1:-0
-								7bit				12bit				12bit
+							7bit		12bit			12bit
 						<----------------> <----------------> <----------------->
-<Row 1022
-<	1021						Mbr3				Mbr2			Mbr1
+	Row 1022
+<	1021						Mbr3		Mbr2			Mbr1
 <	.																			^
 <	.															|
 <	.																			|
