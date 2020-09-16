@@ -35,6 +35,7 @@ Back end array, declared as ordinary byte array (8-bits).
 But internal datastructure managed as a 'collection' of bit-subarrays:
 
 
+
 											BitStringLength=31
 						<------------------------------------------------------->
 
@@ -44,11 +45,8 @@ But internal datastructure managed as a 'collection' of bit-subarrays:
 Row 1022
 	1021						Mbr3				Mbr2			Mbr1
 	.																			^
-	.																			|
+	.															|
 	.																			|
 	0																	<-----{0,0}
-
-
-Actual storing is according to 8-bite (ie. byte) scheme.
 
  
