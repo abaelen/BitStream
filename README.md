@@ -44,9 +44,8 @@ But internal datastructure managed as a 'collection' of bit-subarrays:
 						<----------------> <----------------> <----------------->
 	Row 1022
 	Row 1021					Mbr3		Mbr2			Mbr1
-	Row .																			^
-	Row .															|
-	Row .																			|
-<	0																	<-----{0,0}
-<
+	Row .												^
+	Row .												|
+	Row .												|
+	0											<-----{0,0}
  
