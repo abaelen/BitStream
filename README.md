@@ -25,7 +25,8 @@ The Members hook into the byte buffer using a pointer. This implies the members 
 which can be used to feed the USB byte stream buffer of the Arduino, ie. Serial.print/write. As speed is important in this application. 
 This program ensures no bits on the stream goes wasted. As the ADC reading is only 12 bit, a 16-bit variable would send zero 4-bits over the USB line, each time transmitted.
 The code for capturing and storing the data is not interferred by the serializing task as each data (reading, tick, CRC) is written as if in its 'own' array.
-
+Futher findings on using this class shows however a high processor overhead using this class rendering the ADC readings rather slow, defeating its own purpose a bit.
+Nonetheless the concept stands and can still be used for its usefull applications.
 
 
 Code length is less < 200 lines and uses no external libraries.
