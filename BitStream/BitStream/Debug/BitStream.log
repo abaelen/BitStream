@@ -1,6 +1,6 @@
 ﻿  BitStream.cpp
-C:\Users\Gebruiker\source\repos\BitStream\BitStream\BitStorage.h(85,20): warning C4244: 'initializing': conversion from 'double' to 'uint8_t', possible loss of data
-C:\Users\Gebruiker\source\repos\BitStream\BitStream\BitStorage.h(88,30): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
-C:\Users\Gebruiker\source\repos\BitStream\BitStream\BitStorage.h(144,16): warning C4244: '=': conversion from 'uint64_t' to 'uint8_t', possible loss of data
-C:\Users\Gebruiker\source\repos\BitStream\BitStream\BitStream.cpp(8,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  BitStream.vcxproj -> C:\Users\Gebruiker\source\repos\BitStream\Debug\BitStream.exe
+C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\BitStream\BitStream\BitStream\BitStorage.h(85,20): warning C4244: 'initializing': conversion from 'double' to 'uint8_t', possible loss of data
+C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\BitStream\BitStream\BitStream\BitStorage.h(88,30): warning C4244: '=': conversion from 'double' to 'uint8_t', possible loss of data
+C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\BitStream\BitStream\BitStream\BitStorage.h(144,16): warning C4244: '=': conversion from 'uint64_t' to 'uint8_t', possible loss of data
+C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\BitStream\BitStream\BitStream\BitStream.cpp(8,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  BitStream.vcxproj -> C:\Users\Gebruiker\Documents\OneDrive\Elec Projects\Github\BitStream\BitStream\Debug\BitStream.exe

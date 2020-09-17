@@ -32,7 +32,7 @@ void main()
 	int y = 0;
 
 	std::cout <<" ";
-	for (i = 1022; i >= 0; i--) {
+	for (i = 30; i >= 0; i--) {
 		for (y = 7; y >= 0; y--) {
 			std::cout << ((Writebuffer[i] >> y) & 1);
 			//if (count == 8) { std::cout << "\n"; count = 0; }
